@@ -1,1 +1,4 @@
-Welcome to Janbask
+Selenium is automation tool
+Java is programming language
+Testng is a framework
+Oracle is database
