@@ -10,10 +10,10 @@ public class StringComparision {
 		String value2="Sam";
 		String value3="SAM";
 		
-		System.out.println(value1==value2);
-		System.out.println(value1.equals(value2));
-		System.out.println(value1.equals(value3));
-		System.out.println(value1.equalsIgnoreCase(value3));
+		System.out.println(value1==value2);//true
+		System.out.println(value1.equals(value2));//true
+		System.out.println(value1.equals(value3));//false
+		System.out.println(value1.equalsIgnoreCase(value3));//true
 				
 
 	}
