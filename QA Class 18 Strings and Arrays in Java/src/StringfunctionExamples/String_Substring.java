@@ -11,8 +11,8 @@ public class String_Substring {
 		
 		
 		
-		  System.out.println(str.substring(10,22));
-		 // System.out.println(str.substring(8)); 
+		  System.out.println(str.substring(10,15));
+		  System.out.println(str.substring(2)); 
 		 // System.out.println(str.substring(10));
 		 
 		

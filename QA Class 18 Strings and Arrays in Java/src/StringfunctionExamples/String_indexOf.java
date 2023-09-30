@@ -6,8 +6,8 @@ public class String_indexOf {
 		String value="Welcome to jANBASK";
 
 		
-		System.out.println(value.indexOf('o'));
-		System.out.println(value.indexOf('o',5));
+		System.out.println(value.indexOf('e'));
+		System.out.println(value.indexOf('e',5));
 
 	}
 
