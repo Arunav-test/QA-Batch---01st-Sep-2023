@@ -10,7 +10,8 @@ public class Addition {
 	System.out.println("Addition of two numbers is "+a+" and "+b+" is "+c);
 
 	}
-
+	
+	
 	public static void main(String[] args) {
 		Addition a = new Addition();
 		a.add(10,20);
