@@ -7,6 +7,7 @@ public class hdfc implements CentralBank {
 		h.savings();
 		h.loan();
 		h.creditcard();
+		System.out.println(h.age);
 		
 	}
 

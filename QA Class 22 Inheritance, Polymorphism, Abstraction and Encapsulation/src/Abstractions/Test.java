@@ -9,6 +9,7 @@ public class Test extends Abstraction_Ex {
 		t.loan();
 		t.creditcard();
 		t.kyc();
+		System.out.println(t.age);
 
 	}
 
