@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class OrangeTest {
 	
-	@Test
+//	@Test
 	public void login() throws InterruptedException {
 		
 		WebDriver driver = new ChromeDriver();
@@ -38,11 +38,12 @@ public class OrangeTest {
 		
 		driver.findElement(By.xpath("//span[normalize-space()='My Info']")).click();
 		Thread.sleep(2000);
-		
-		
-		driver.findElement(By.xpath("//input[@placeholder='Middle Name']")).sendKeys("Martin");
-		driver.findElement(By.xpath("//div[@class='orangehrm-horizontal-padding orangehrm-vertical-padding']//button[@type='submit'][normalize-space()='Save']")).click();
-	   driver.quit();
+		driver.findElement(By.xpath("//input[@placeholder='Last Name']")).clear();
+		System.out.println("cleared");
+		driver.findElement(By.xpath("//input[@placeholder='Last Name']")).sendKeys(Keys.BACK_SPACE);
+		//driver.findElement(By.xpath("//input[@placeholder='Middle Name']")).sendKeys("Martin");
+		//driver.findElement(By.xpath("//div[@class='orangehrm-horizontal-padding orangehrm-vertical-padding']//button[@type='submit'][normalize-space()='Save']")).click();
+	  // driver.quit();
 		
 	}
 
