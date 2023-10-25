@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Annotations.ExceptionExpected">
+      <class name="Annotations.LoginRetry">
         <methods>
-          <include name="exceptionExample"/>
+          <include name="carttest"/>
+          <include name="logintest"/>
         </methods>
-      </class> <!-- Annotations.ExceptionExpected -->
+      </class> <!-- Annotations.LoginRetry -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
