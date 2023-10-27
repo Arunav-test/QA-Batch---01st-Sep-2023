@@ -1,37 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-25T22:00:43 GMT-04:00" name="Default suite" finished-at="2023-10-25T22:00:50 GMT-04:00" duration-ms="6759">
+  <suite started-at="2023-10-26T22:00:51 GMT-04:00" name="Default suite" finished-at="2023-10-26T22:01:21 GMT-04:00" duration-ms="29153">
     <groups>
     </groups>
-    <test started-at="2023-10-25T22:00:43 GMT-04:00" name="Default test" finished-at="2023-10-25T22:00:50 GMT-04:00" duration-ms="6759">
-      <class name="TESTCASES.LoginTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:TESTCASES.LoginTest@1b2abca6]" started-at="2023-10-25T22:00:43 GMT-04:00" name="init" finished-at="2023-10-25T22:00:46 GMT-04:00" duration-ms="3001" status="PASS">
+    <test started-at="2023-10-26T22:00:51 GMT-04:00" name="Default test" finished-at="2023-10-26T22:01:21 GMT-04:00" duration-ms="29153">
+      <class name="TESTCASES.HomeTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:TESTCASES.HomeTest@2ed2d9cb]" started-at="2023-10-26T22:00:52 GMT-04:00" name="init" finished-at="2023-10-26T22:00:59 GMT-04:00" duration-ms="7639" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="validLogin()[pri:1, instance:TESTCASES.LoginTest@1b2abca6]" started-at="2023-10-25T22:00:46 GMT-04:00" name="validLogin" finished-at="2023-10-25T22:00:47 GMT-04:00" duration-ms="683" status="PASS">
+        <test-method signature="addcart()[pri:0, instance:TESTCASES.HomeTest@2ed2d9cb]" started-at="2023-10-26T22:00:59 GMT-04:00" name="addcart" finished-at="2023-10-26T22:01:00 GMT-04:00" duration-ms="401" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TESTCASES.LoginTest@1b2abca6]" started-at="2023-10-25T22:00:47 GMT-04:00" name="teardown" finished-at="2023-10-25T22:00:47 GMT-04:00" duration-ms="253" status="PASS">
+        </test-method> <!-- addcart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TESTCASES.HomeTest@2ed2d9cb]" started-at="2023-10-26T22:01:00 GMT-04:00" name="teardown" finished-at="2023-10-26T22:01:01 GMT-04:00" duration-ms="1062" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="init()[pri:0, instance:TESTCASES.LoginTest@1b2abca6]" started-at="2023-10-25T22:00:47 GMT-04:00" name="init" finished-at="2023-10-25T22:00:49 GMT-04:00" duration-ms="2104" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:TESTCASES.HomeTest@2ed2d9cb]" started-at="2023-10-26T22:01:01 GMT-04:00" name="init" finished-at="2023-10-26T22:01:06 GMT-04:00" duration-ms="4752" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="invalidLogin()[pri:2, instance:TESTCASES.LoginTest@1b2abca6]" started-at="2023-10-25T22:00:49 GMT-04:00" name="invalidLogin" finished-at="2023-10-25T22:00:50 GMT-04:00" duration-ms="446" status="PASS">
+        <test-method signature="filter()[pri:0, instance:TESTCASES.HomeTest@2ed2d9cb]" started-at="2023-10-26T22:01:06 GMT-04:00" name="filter" finished-at="2023-10-26T22:01:06 GMT-04:00" duration-ms="603" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TESTCASES.LoginTest@1b2abca6]" started-at="2023-10-25T22:00:50 GMT-04:00" name="teardown" finished-at="2023-10-25T22:00:50 GMT-04:00" duration-ms="208" status="PASS">
+        </test-method> <!-- filter -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TESTCASES.HomeTest@2ed2d9cb]" started-at="2023-10-26T22:01:06 GMT-04:00" name="teardown" finished-at="2023-10-26T22:01:07 GMT-04:00" duration-ms="1026" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- TESTCASES.LoginTest -->
+        <test-method is-config="true" signature="init()[pri:0, instance:TESTCASES.HomeTest@2ed2d9cb]" started-at="2023-10-26T22:01:07 GMT-04:00" name="init" finished-at="2023-10-26T22:01:12 GMT-04:00" duration-ms="4967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="removecart()[pri:0, instance:TESTCASES.HomeTest@2ed2d9cb]" started-at="2023-10-26T22:01:12 GMT-04:00" name="removecart" finished-at="2023-10-26T22:01:13 GMT-04:00" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removecart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TESTCASES.HomeTest@2ed2d9cb]" started-at="2023-10-26T22:01:13 GMT-04:00" name="teardown" finished-at="2023-10-26T22:01:14 GMT-04:00" duration-ms="1040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:TESTCASES.HomeTest@2ed2d9cb]" started-at="2023-10-26T22:01:14 GMT-04:00" name="init" finished-at="2023-10-26T22:01:19 GMT-04:00" duration-ms="5230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyFacebook()[pri:0, instance:TESTCASES.HomeTest@2ed2d9cb]" started-at="2023-10-26T22:01:19 GMT-04:00" name="verifyFacebook" finished-at="2023-10-26T22:01:19 GMT-04:00" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFacebook -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TESTCASES.HomeTest@2ed2d9cb]" started-at="2023-10-26T22:01:19 GMT-04:00" name="teardown" finished-at="2023-10-26T22:01:21 GMT-04:00" duration-ms="1283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TESTCASES.HomeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

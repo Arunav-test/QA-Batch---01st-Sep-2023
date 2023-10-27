@@ -11,11 +11,13 @@ import org.testng.annotations.Test;
 
 import PAGES.LoginPage;
 import TESTBASE.TestBase;
+import UTIL.TestUtil;
 
 public class LoginTest extends TestBase{
 	
 	@BeforeMethod
 	public void init() throws IOException {
+		//launch the browser  & url specified in the config properties file
 		intialization();
 	}
 	
@@ -28,6 +30,7 @@ public class LoginTest extends TestBase{
 	String actual=	driver.findElement(By.xpath("//span[@class='title']")).getText();
 		
 		assertEquals(actual, "Products");
+		
 		
 		
 	}
@@ -47,7 +50,8 @@ String actual=	driver.findElement(By.xpath("//h3[@data-test='error']")).getText(
 	}
 	
 	@AfterMethod
-	public void teardown() {
+	public void teardown() throws IOException {
+		TestUtil.Screenshot();
 		driver.quit();
 	}
 

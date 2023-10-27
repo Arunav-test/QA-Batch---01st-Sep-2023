@@ -430,3 +430,7 @@
 2023-10-25 22:40:21,925 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-10-25 22:40:21,925 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\QA Batch - 01st Sep 2023\SAUCE_UI_FRAMEWORK\src\test\resources
 2023-10-26 20:47:42,296 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-10-26 21:01:20,356 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-26 21:01:20,359 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\QA Batch - 01st Sep 2023\SAUCE_UI_FRAMEWORK\src\main\resources
+2023-10-26 21:01:20,362 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-26 21:01:20,362 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\QA Batch - 01st Sep 2023\SAUCE_UI_FRAMEWORK\src\test\resources
